@@ -40,7 +40,7 @@ The Letterboxd 2 Trakt Importer is a Python tool that allows users to import the
 <img width="400" height="380" src="INSERT IMAGE URL" border="0">
   </p>
 
-## **3. Installation**
+## Installation
 ### **Prerequisites:**
 - Python 3.7 or newer
 - A Trakt account and API credentials
@@ -65,7 +65,7 @@ The Letterboxd 2 Trakt Importer is a Python tool that allows users to import the
 
 ---
 
-## **4. Usage**
+## Usage
 ### **CLI Usage:**
 ```bash
 python main.py --file path_to_csv --dry-run
@@ -86,14 +86,18 @@ Follow the prompts to enter your CSV file path and choose your preferred mode.
 
 <br>
 
-<ins>**FEATURE 1**:</ins>
-   - FEATURE DESCRIPTION.
+<ins>**Interactive Mode**:</ins>
+   - Easy-to-follow prompts for quick setup and execution.
    
-<ins>**FEATURE 2**:</ins>
-   - FEATURE DESCRIPTION.
+<ins>**Dry-run Mode**:</ins>
+   - Safely test the script without making changes to your Trakt account.
    
-<ins>**FEATURE 3**:</ins>
-   - FEATURE DESCRIPTION.
+<ins>**Colorful Console Output**:</ins>
+   - Highlights information, warnings, and errors.
+
+<ins>**CSV Validation**:</ins>
+   - Ensures data integrity before processing.
+
 
 
 ## Contributing
@@ -162,16 +166,3 @@ For any inquiries or support, you can contact [pudszttiot9@proton.me](mailto:pud
 [Back To Top](#top)
 
 <br>
-
-
-
-
-
-
-
-
-This is a Python script to export your Letterboxd watched history of movies & TV Shows and then a tool to import that to Trakt.
-To use run LBD_History.py on your terminal and follow the prompts.
-This will generate a csv file of your Letterboxd Watch History in the format required.
-CSV titled "Watched_Movies_LBD.csv" (for movies you've seen)
-Once CSV file is created you can import it by running LBD2T_Importer.py on your terminal.   You can import this file directly into the Trakt.
