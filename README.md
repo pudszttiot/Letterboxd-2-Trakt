@@ -1,7 +1,7 @@
   <a name="top"></a>
 
 <p align="center">
-  <img width="660" height="500" src="https://iili.io/2eBRgvj.png">
+  <img width="750" height="300" src="https://iili.io/2eBRgvj.png">
 </p>
 
 <h2 align="center">
