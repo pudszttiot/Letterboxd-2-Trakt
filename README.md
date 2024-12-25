@@ -1,6 +1,8 @@
 # Letterboxd-2-Trakt
 Letterboxd to Trakt Importer Tool
 
+![Letterboxd2Trakt](https://raw.githubusercontent.com/pudszttiot/Letterboxd-2-Trakt/refs/heads/main/letterboxd2trakt.png)
+
 
 This is a Python script to export your Letterboxd watched history of movies & TV Shows and then a tool to import that to Trakt.
 
