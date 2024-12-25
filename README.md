@@ -1,15 +1,15 @@
-
   <a name="top"></a>
 
 <p align="center">
-  <img width="660" height="500" src="(https://raw.githubusercontent.com/pudszttiot/Letterboxd-2-Trakt/refs/heads/main/letterboxd2trakt.png)">
+  <img width="660" height="500" src="https://iili.io/2eBRgvj.png">
 </p>
 
 <h2 align="center">
 
 ---
 
-PROJECT TITLE
+Letterboxd 2 Trakt
+
 
 
 [![SourceForge - Download Now](https://img.shields.io/badge/SourceForge-Download_Now-2E8B57?logo=sourceforge)](https://sourceforge.net/projects/reqbuilder/files/latest/download)
@@ -30,7 +30,7 @@ PROJECT TITLE
 
 ## Description
 
-BRIEF DESCRIPTION OF THE TOOL
+The Letterboxd 2 Trakt Importer is a Python tool that allows users to import their watch history from Letterboxd (exported as a CSV file) into their Trakt account. It features a user-friendly interactive mode, supports a dry-run mode for testing, and provides colorful console output for a polished experience.
 
 ## Screenshots
 
@@ -40,24 +40,47 @@ BRIEF DESCRIPTION OF THE TOOL
 <img width="400" height="380" src="INSERT IMAGE URL" border="0">
   </p>
 
-## Installation
+## **3. Installation**
+### **Prerequisites:**
+- Python 3.7 or newer
+- A Trakt account and API credentials
+- `pip` package manager
 
-1. **Clone the repository:**
+### **Steps:**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/pudszttiot/**INSERT REPO URL**
+   git clone https://github.com/pudszttiot/Letterboxd-2-Trakt.git
+   cd Letterboxd-2-Trakt
    ```
-
-2. **Install dependencies:**
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
-## Usage
-- **Run the tool using the below command:**
-
-   ```bash
-   python run.py
+3. Create a `.env` file in the root directory and add your Trakt API credentials:
    ```
+   TRAKT_CLIENT_ID=your_client_id
+   TRAKT_CLIENT_SECRET=your_client_secret
+   TRAKT_ACCESS_TOKEN=your_access_token
+   ```
+
+---
+
+## **4. Usage**
+### **CLI Usage:**
+```bash
+python main.py --file path_to_csv --dry-run
+```
+- `--file`: Path to the Letterboxd CSV file.
+- `--dry-run`: Enables a non-destructive testing mode.
+
+### **Interactive Mode:**
+Run the script without any arguments:
+```bash
+python main.py
+```
+Follow the prompts to enter your CSV file path and choose your preferred mode.
+
+---
 
 ## Features
 
@@ -145,12 +168,10 @@ For any inquiries or support, you can contact [pudszttiot9@proton.me](mailto:pud
 
 
 
+
+
 This is a Python script to export your Letterboxd watched history of movies & TV Shows and then a tool to import that to Trakt.
-
-
 To use run LBD_History.py on your terminal and follow the prompts.
 This will generate a csv file of your Letterboxd Watch History in the format required.
 CSV titled "Watched_Movies_LBD.csv" (for movies you've seen)
-
-
 Once CSV file is created you can import it by running LBD2T_Importer.py on your terminal.   You can import this file directly into the Trakt.
