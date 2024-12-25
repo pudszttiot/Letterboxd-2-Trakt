@@ -8,7 +8,7 @@
 
 ---
 
-<u>Letterboxd 2 Trakt</u>
+<ins>Letterboxd 2 Trakt<ins>
 
 
 
