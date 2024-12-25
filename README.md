@@ -7,6 +7,7 @@ This is a Python script to export your Letterboxd watched history of movies & TV
 
 To use run LBD_History.py on your terminal and follow the prompts.
 This will generate a csv file of your Letterboxd Watch History in the format required.
-CSV titled 'LBD_History.csv' (for movies you've seen)
+CSV titled "Watched_Movies_LBD.csv" (for movies you've seen)
 
-LBD2T_Importer.py on your terminal.   You can import these files directly into the Letterboxd interface.
+
+Once CSV file is created you can import it by running LBD2T_Importer.py on your terminal.   You can import this file directly into the Trakt.
