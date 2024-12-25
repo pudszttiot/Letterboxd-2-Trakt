@@ -1,13 +1,8 @@
-# Letterboxd-2-Trakt
-Letterboxd to Trakt Importer Tool
-
-![Letterboxd2Trakt](https://raw.githubusercontent.com/pudszttiot/Letterboxd-2-Trakt/refs/heads/main/letterboxd2trakt.png)
-
 
   <a name="top"></a>
 
 <p align="center">
-  <img width="660" height="500" src="INSERT IMAGE URL">
+  <img width="660" height="500" src="(https://raw.githubusercontent.com/pudszttiot/Letterboxd-2-Trakt/refs/heads/main/letterboxd2trakt.png)">
 </p>
 
 <h2 align="center">
