@@ -35,9 +35,9 @@ The Letterboxd 2 Trakt Importer is a Python tool that allows users to import the
 ## Screenshots
 
 <p align="center"> 
-<img width="400" height="380" src="INSERT IMAGE URL" border="0">
+<img width="400" height="380" src="https://iili.io/2eo8Yf2.png" border="0">
   &nbsp;
-<img width="400" height="380" src="INSERT IMAGE URL" border="0">
+<img width="400" height="380" src="https://iili.io/2eo8alS.png" border="0">
   </p>
 
 ## Installation
