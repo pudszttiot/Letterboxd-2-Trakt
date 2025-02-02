@@ -1,7 +1,7 @@
   <a name="top"></a>
 
 <p align="center">
-  <img width="750" height="300" src="https://iili.io/2eBRgvj.png">
+  <img width="750" height="300" src="https://raw.githubusercontent.com/pudszttiot/Letterboxd-2-Trakt/refs/heads/main/Images/Letterboxd_2_TraktLogo.png">
 </p>
 
 <h2 align="center">
